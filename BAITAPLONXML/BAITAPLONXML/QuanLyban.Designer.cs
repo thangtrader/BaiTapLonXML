@@ -32,15 +32,24 @@
             button2 = new Button();
             button3 = new Button();
             groupBox1 = new GroupBox();
-            label2 = new Label();
-            label3 = new Label();
-            textBox1 = new TextBox();
             comboBox1 = new ComboBox();
+            textBox1 = new TextBox();
+            label3 = new Label();
+            label2 = new Label();
             button4 = new Button();
             textBox2 = new TextBox();
             button5 = new Button();
             label1 = new Label();
             dataGridView1 = new DataGridView();
+            textBox3 = new TextBox();
+            label4 = new Label();
+            textBox4 = new TextBox();
+            label5 = new Label();
+            Column1 = new DataGridViewTextBoxColumn();
+            Column2 = new DataGridViewTextBoxColumn();
+            Column3 = new DataGridViewTextBoxColumn();
+            Column4 = new DataGridViewTextBoxColumn();
+            Column5 = new DataGridViewTextBoxColumn();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -82,16 +91,46 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(textBox4);
+            groupBox1.Controls.Add(label5);
+            groupBox1.Controls.Add(textBox3);
+            groupBox1.Controls.Add(label4);
             groupBox1.Controls.Add(comboBox1);
             groupBox1.Controls.Add(textBox1);
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(label2);
-            groupBox1.Location = new Point(68, 162);
+            groupBox1.Location = new Point(68, 137);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(565, 272);
+            groupBox1.Size = new Size(565, 331);
             groupBox1.TabIndex = 3;
             groupBox1.TabStop = false;
             groupBox1.Text = "Số bàn";
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(162, 132);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(182, 33);
+            comboBox1.TabIndex = 6;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(162, 76);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(182, 31);
+            textBox1.TabIndex = 5;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 163);
+            label3.Location = new Point(24, 132);
+            label3.Name = "label3";
+            label3.Size = new Size(94, 28);
+            label3.TabIndex = 4;
+            label3.Text = "Mã tầng :";
             // 
             // label2
             // 
@@ -102,31 +141,6 @@
             label2.Size = new Size(88, 28);
             label2.TabIndex = 1;
             label2.Text = "Tên bàn :";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 163);
-            label3.Location = new Point(24, 132);
-            label3.Name = "label3";
-            label3.Size = new Size(122, 28);
-            label3.TabIndex = 4;
-            label3.Text = "Mã khu vực :";
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(162, 76);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(182, 31);
-            textBox1.TabIndex = 5;
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(162, 132);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(182, 33);
-            comboBox1.TabIndex = 6;
             // 
             // button4
             // 
@@ -173,11 +187,81 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4, Column5 });
             dataGridView1.Location = new Point(687, 111);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 62;
             dataGridView1.Size = new Size(562, 426);
             dataGridView1.TabIndex = 8;
+            // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(162, 183);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(182, 31);
+            textBox3.TabIndex = 8;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 163);
+            label4.Location = new Point(24, 183);
+            label4.Name = "label4";
+            label4.Size = new Size(82, 28);
+            label4.TabIndex = 7;
+            label4.Text = "Số ghế :";
+            // 
+            // textBox4
+            // 
+            textBox4.Location = new Point(162, 237);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(182, 31);
+            textBox4.TabIndex = 10;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 163);
+            label5.Location = new Point(24, 237);
+            label5.Name = "label5";
+            label5.Size = new Size(73, 28);
+            label5.TabIndex = 9;
+            label5.Text = "Mô tả :";
+            // 
+            // Column1
+            // 
+            Column1.HeaderText = "Mã bàn";
+            Column1.MinimumWidth = 8;
+            Column1.Name = "Column1";
+            Column1.Width = 150;
+            // 
+            // Column2
+            // 
+            Column2.HeaderText = "Tên bàn";
+            Column2.MinimumWidth = 8;
+            Column2.Name = "Column2";
+            Column2.Width = 150;
+            // 
+            // Column3
+            // 
+            Column3.HeaderText = "Mã tầng";
+            Column3.MinimumWidth = 8;
+            Column3.Name = "Column3";
+            Column3.Width = 150;
+            // 
+            // Column4
+            // 
+            Column4.HeaderText = "Số ghế";
+            Column4.MinimumWidth = 8;
+            Column4.Name = "Column4";
+            Column4.Width = 150;
+            // 
+            // Column5
+            // 
+            Column5.HeaderText = "Mô tả";
+            Column5.MinimumWidth = 8;
+            Column5.Name = "Column5";
+            Column5.Width = 150;
             // 
             // QuanLyban
             // 
@@ -195,6 +279,7 @@
             Controls.Add(button1);
             Name = "QuanLyban";
             Text = "QuanLyban";
+            Load += QuanLyban_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
@@ -217,5 +302,14 @@
         private Button button5;
         private Label label1;
         private DataGridView dataGridView1;
+        private TextBox textBox4;
+        private Label label5;
+        private TextBox textBox3;
+        private Label label4;
+        private DataGridViewTextBoxColumn Column1;
+        private DataGridViewTextBoxColumn Column2;
+        private DataGridViewTextBoxColumn Column3;
+        private DataGridViewTextBoxColumn Column4;
+        private DataGridViewTextBoxColumn Column5;
     }
 }

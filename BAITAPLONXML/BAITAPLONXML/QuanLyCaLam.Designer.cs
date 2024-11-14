@@ -45,6 +45,12 @@
             button2 = new Button();
             button1 = new Button();
             dataGridView1 = new DataGridView();
+            Column1 = new DataGridViewTextBoxColumn();
+            Column2 = new DataGridViewTextBoxColumn();
+            Column3 = new DataGridViewTextBoxColumn();
+            Column4 = new DataGridViewTextBoxColumn();
+            Column5 = new DataGridViewTextBoxColumn();
+            Column6 = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -62,7 +68,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Arial", 14F, FontStyle.Regular, GraphicsUnit.Point, 163);
-            label2.Location = new Point(115, 98);
+            label2.Location = new Point(47, 98);
             label2.Name = "label2";
             label2.Size = new Size(90, 32);
             label2.TabIndex = 1;
@@ -86,7 +92,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Arial", 14F, FontStyle.Regular, GraphicsUnit.Point, 163);
-            label3.Location = new Point(115, 165);
+            label3.Location = new Point(47, 165);
             label3.Name = "label3";
             label3.Size = new Size(99, 32);
             label3.TabIndex = 3;
@@ -94,7 +100,7 @@
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(282, 233);
+            textBox3.Location = new Point(282, 230);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(264, 31);
             textBox3.TabIndex = 6;
@@ -103,15 +109,15 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Arial", 14F, FontStyle.Regular, GraphicsUnit.Point, 163);
-            label4.Location = new Point(115, 230);
+            label4.Location = new Point(47, 230);
             label4.Name = "label4";
-            label4.Size = new Size(161, 32);
+            label4.Size = new Size(233, 32);
             label4.TabIndex = 5;
-            label4.Text = "Mã khu vực";
+            label4.Text = "Thời gian bắt đầu";
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(816, 233);
+            textBox4.Location = new Point(896, 233);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(264, 31);
             textBox4.TabIndex = 12;
@@ -120,15 +126,15 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Arial", 14F, FontStyle.Regular, GraphicsUnit.Point, 163);
-            label5.Location = new Point(626, 230);
+            label5.Location = new Point(652, 230);
             label5.Name = "label5";
-            label5.Size = new Size(49, 32);
+            label5.Size = new Size(238, 32);
             label5.TabIndex = 11;
-            label5.Text = "Ca";
+            label5.Text = "Thời gian kết thúc";
             // 
             // textBox5
             // 
-            textBox5.Location = new Point(816, 168);
+            textBox5.Location = new Point(896, 168);
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(264, 31);
             textBox5.TabIndex = 10;
@@ -137,7 +143,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Arial", 14F, FontStyle.Regular, GraphicsUnit.Point, 163);
-            label6.Location = new Point(626, 165);
+            label6.Location = new Point(652, 165);
             label6.Name = "label6";
             label6.Size = new Size(79, 32);
             label6.TabIndex = 9;
@@ -145,7 +151,7 @@
             // 
             // textBox6
             // 
-            textBox6.Location = new Point(816, 101);
+            textBox6.Location = new Point(896, 101);
             textBox6.Name = "textBox6";
             textBox6.Size = new Size(264, 31);
             textBox6.TabIndex = 8;
@@ -154,7 +160,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Arial", 14F, FontStyle.Regular, GraphicsUnit.Point, 163);
-            label7.Location = new Point(626, 98);
+            label7.Location = new Point(652, 98);
             label7.Name = "label7";
             label7.Size = new Size(184, 32);
             label7.TabIndex = 7;
@@ -166,7 +172,7 @@
             button3.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 163);
             button3.Location = new Point(522, 306);
             button3.Name = "button3";
-            button3.Size = new Size(166, 34);
+            button3.Size = new Size(166, 45);
             button3.TabIndex = 20;
             button3.Text = "Cập nhật";
             button3.UseVisualStyleBackColor = false;
@@ -177,7 +183,7 @@
             button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 163);
             button2.Location = new Point(816, 306);
             button2.Name = "button2";
-            button2.Size = new Size(166, 34);
+            button2.Size = new Size(166, 45);
             button2.TabIndex = 19;
             button2.Text = "Xóa ";
             button2.UseVisualStyleBackColor = false;
@@ -189,7 +195,7 @@
             button1.ForeColor = Color.Black;
             button1.Location = new Point(266, 307);
             button1.Name = "button1";
-            button1.Size = new Size(166, 34);
+            button1.Size = new Size(166, 45);
             button1.TabIndex = 18;
             button1.Text = "Thêm ";
             button1.UseVisualStyleBackColor = false;
@@ -197,17 +203,60 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(115, 347);
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4, Column5, Column6 });
+            dataGridView1.Location = new Point(116, 380);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 62;
             dataGridView1.Size = new Size(965, 263);
             dataGridView1.TabIndex = 21;
             // 
+            // Column1
+            // 
+            Column1.HeaderText = "Mã ca";
+            Column1.MinimumWidth = 8;
+            Column1.Name = "Column1";
+            Column1.Width = 150;
+            // 
+            // Column2
+            // 
+            Column2.HeaderText = "Tên ca";
+            Column2.MinimumWidth = 8;
+            Column2.Name = "Column2";
+            Column2.Width = 150;
+            // 
+            // Column3
+            // 
+            Column3.HeaderText = "Mã nhân viên";
+            Column3.MinimumWidth = 8;
+            Column3.Name = "Column3";
+            Column3.Width = 150;
+            // 
+            // Column4
+            // 
+            Column4.HeaderText = "Ngày";
+            Column4.MinimumWidth = 8;
+            Column4.Name = "Column4";
+            Column4.Width = 150;
+            // 
+            // Column5
+            // 
+            Column5.HeaderText = "Thời gian bắt đầu";
+            Column5.MinimumWidth = 8;
+            Column5.Name = "Column5";
+            Column5.Width = 150;
+            // 
+            // Column6
+            // 
+            Column6.HeaderText = "Thời gian kết thúc";
+            Column6.MinimumWidth = 8;
+            Column6.Name = "Column6";
+            Column6.Width = 150;
+            // 
             // QuanLyCaLam
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1231, 622);
+            ClientSize = new Size(1231, 675);
             Controls.Add(dataGridView1);
             Controls.Add(button3);
             Controls.Add(button2);
@@ -251,5 +300,11 @@
         private Button button2;
         private Button button1;
         private DataGridView dataGridView1;
+        private DataGridViewTextBoxColumn Column1;
+        private DataGridViewTextBoxColumn Column2;
+        private DataGridViewTextBoxColumn Column3;
+        private DataGridViewTextBoxColumn Column4;
+        private DataGridViewTextBoxColumn Column5;
+        private DataGridViewTextBoxColumn Column6;
     }
 }

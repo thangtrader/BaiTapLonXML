@@ -29,43 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(QuanLy));
-            menuStrip1 = new MenuStrip();
-            hToolStripMenuItem = new ToolStripMenuItem();
-            tấtCảToolStripMenuItem = new ToolStripMenuItem();
-            tầngTrệtToolStripMenuItem = new ToolStripMenuItem();
-            tầng1ToolStripMenuItem = new ToolStripMenuItem();
-            tầng2ToolStripMenuItem = new ToolStripMenuItem();
-            danhMụcToolStripMenuItem = new ToolStripMenuItem();
-            càPhêToolStripMenuItem = new ToolStripMenuItem();
-            nướcHoaQuảToolStripMenuItem = new ToolStripMenuItem();
-            sodaToolStripMenuItem = new ToolStripMenuItem();
-            đáXayToolStripMenuItem = new ToolStripMenuItem();
-            cácLoạiHạtToolStripMenuItem = new ToolStripMenuItem();
-            khoVàMenuToolStripMenuItem = new ToolStripMenuItem();
-            lươngToolStripMenuItem = new ToolStripMenuItem();
-            báoCáoThốngKêToolStripMenuItem = new ToolStripMenuItem();
-            groupBox1 = new GroupBox();
-            button5 = new Button();
-            button4 = new Button();
-            comboBox2 = new ComboBox();
-            comboBox1 = new ComboBox();
-            textBox6 = new TextBox();
-            textBox5 = new TextBox();
-            textBox4 = new TextBox();
-            label7 = new Label();
-            label6 = new Label();
-            label5 = new Label();
-            dataGridView1 = new DataGridView();
-            button3 = new Button();
-            button2 = new Button();
-            button1 = new Button();
-            textBox3 = new TextBox();
-            label4 = new Label();
-            textBox2 = new TextBox();
-            label3 = new Label();
-            textBox1 = new TextBox();
-            label2 = new Label();
-            label1 = new Label();
             flowLayoutPanel1 = new FlowLayoutPanel();
             button6 = new Button();
             button7 = new Button();
@@ -80,324 +43,33 @@
             button16 = new Button();
             button17 = new Button();
             button18 = new Button();
-            menuStrip1.SuspendLayout();
-            groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            button19 = new Button();
+            button20 = new Button();
+            button21 = new Button();
+            button22 = new Button();
+            pictureBox1 = new PictureBox();
+            button23 = new Button();
+            button24 = new Button();
+            groupBox2 = new GroupBox();
+            groupBox3 = new GroupBox();
+            comboBox3 = new ComboBox();
+            button25 = new Button();
+            label9 = new Label();
+            label10 = new Label();
+            label11 = new Label();
+            button26 = new Button();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
+            button4 = new Button();
+            button5 = new Button();
+            button27 = new Button();
+            button28 = new Button();
             flowLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            groupBox2.SuspendLayout();
+            groupBox3.SuspendLayout();
             SuspendLayout();
-            // 
-            // menuStrip1
-            // 
-            menuStrip1.ImageScalingSize = new Size(24, 24);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { hToolStripMenuItem, danhMụcToolStripMenuItem, khoVàMenuToolStripMenuItem, lươngToolStripMenuItem, báoCáoThốngKêToolStripMenuItem });
-            menuStrip1.Location = new Point(0, 0);
-            menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(1178, 33);
-            menuStrip1.TabIndex = 0;
-            menuStrip1.Text = "menuStrip1";
-            // 
-            // hToolStripMenuItem
-            // 
-            hToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tấtCảToolStripMenuItem, tầngTrệtToolStripMenuItem, tầng1ToolStripMenuItem, tầng2ToolStripMenuItem });
-            hToolStripMenuItem.Name = "hToolStripMenuItem";
-            hToolStripMenuItem.Size = new Size(103, 29);
-            hToolStripMenuItem.Text = "Hệ thống";
-            hToolStripMenuItem.Click += hToolStripMenuItem_Click;
-            // 
-            // tấtCảToolStripMenuItem
-            // 
-            tấtCảToolStripMenuItem.Name = "tấtCảToolStripMenuItem";
-            tấtCảToolStripMenuItem.Size = new Size(185, 34);
-            tấtCảToolStripMenuItem.Text = "Tất cả";
-            // 
-            // tầngTrệtToolStripMenuItem
-            // 
-            tầngTrệtToolStripMenuItem.Name = "tầngTrệtToolStripMenuItem";
-            tầngTrệtToolStripMenuItem.Size = new Size(185, 34);
-            tầngTrệtToolStripMenuItem.Text = "Tầng trệt";
-            // 
-            // tầng1ToolStripMenuItem
-            // 
-            tầng1ToolStripMenuItem.Name = "tầng1ToolStripMenuItem";
-            tầng1ToolStripMenuItem.Size = new Size(185, 34);
-            tầng1ToolStripMenuItem.Text = "Tầng 1";
-            // 
-            // tầng2ToolStripMenuItem
-            // 
-            tầng2ToolStripMenuItem.Name = "tầng2ToolStripMenuItem";
-            tầng2ToolStripMenuItem.Size = new Size(185, 34);
-            tầng2ToolStripMenuItem.Text = "Tầng 2";
-            // 
-            // danhMụcToolStripMenuItem
-            // 
-            danhMụcToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { càPhêToolStripMenuItem, nướcHoaQuảToolStripMenuItem, sodaToolStripMenuItem, đáXayToolStripMenuItem, cácLoạiHạtToolStripMenuItem });
-            danhMụcToolStripMenuItem.Name = "danhMụcToolStripMenuItem";
-            danhMụcToolStripMenuItem.Size = new Size(109, 29);
-            danhMụcToolStripMenuItem.Text = "Danh mục";
-            // 
-            // càPhêToolStripMenuItem
-            // 
-            càPhêToolStripMenuItem.Name = "càPhêToolStripMenuItem";
-            càPhêToolStripMenuItem.Size = new Size(270, 34);
-            càPhêToolStripMenuItem.Text = "Cà phê";
-            // 
-            // nướcHoaQuảToolStripMenuItem
-            // 
-            nướcHoaQuảToolStripMenuItem.Name = "nướcHoaQuảToolStripMenuItem";
-            nướcHoaQuảToolStripMenuItem.Size = new Size(270, 34);
-            nướcHoaQuảToolStripMenuItem.Text = "Nước hoa quả";
-            // 
-            // sodaToolStripMenuItem
-            // 
-            sodaToolStripMenuItem.Name = "sodaToolStripMenuItem";
-            sodaToolStripMenuItem.Size = new Size(270, 34);
-            sodaToolStripMenuItem.Text = "Soda";
-            // 
-            // đáXayToolStripMenuItem
-            // 
-            đáXayToolStripMenuItem.Name = "đáXayToolStripMenuItem";
-            đáXayToolStripMenuItem.Size = new Size(270, 34);
-            đáXayToolStripMenuItem.Text = "Đá xay";
-            // 
-            // cácLoạiHạtToolStripMenuItem
-            // 
-            cácLoạiHạtToolStripMenuItem.Name = "cácLoạiHạtToolStripMenuItem";
-            cácLoạiHạtToolStripMenuItem.Size = new Size(270, 34);
-            cácLoạiHạtToolStripMenuItem.Text = "Các loại hạt";
-            // 
-            // khoVàMenuToolStripMenuItem
-            // 
-            khoVàMenuToolStripMenuItem.Name = "khoVàMenuToolStripMenuItem";
-            khoVàMenuToolStripMenuItem.Size = new Size(73, 29);
-            khoVàMenuToolStripMenuItem.Text = "Menu";
-            // 
-            // lươngToolStripMenuItem
-            // 
-            lươngToolStripMenuItem.Name = "lươngToolStripMenuItem";
-            lươngToolStripMenuItem.Size = new Size(79, 29);
-            lươngToolStripMenuItem.Text = "Lương";
-            // 
-            // báoCáoThốngKêToolStripMenuItem
-            // 
-            báoCáoThốngKêToolStripMenuItem.Name = "báoCáoThốngKêToolStripMenuItem";
-            báoCáoThốngKêToolStripMenuItem.Size = new Size(167, 29);
-            báoCáoThốngKêToolStripMenuItem.Text = "Báo cáo thống kê";
-            // 
-            // groupBox1
-            // 
-            groupBox1.Controls.Add(button5);
-            groupBox1.Controls.Add(button4);
-            groupBox1.Controls.Add(comboBox2);
-            groupBox1.Controls.Add(comboBox1);
-            groupBox1.Controls.Add(textBox6);
-            groupBox1.Controls.Add(textBox5);
-            groupBox1.Controls.Add(textBox4);
-            groupBox1.Controls.Add(label7);
-            groupBox1.Controls.Add(label6);
-            groupBox1.Controls.Add(label5);
-            groupBox1.Controls.Add(dataGridView1);
-            groupBox1.Controls.Add(button3);
-            groupBox1.Controls.Add(button2);
-            groupBox1.Controls.Add(button1);
-            groupBox1.Controls.Add(textBox3);
-            groupBox1.Controls.Add(label4);
-            groupBox1.Controls.Add(textBox2);
-            groupBox1.Controls.Add(label3);
-            groupBox1.Controls.Add(textBox1);
-            groupBox1.Controls.Add(label2);
-            groupBox1.Controls.Add(label1);
-            groupBox1.Location = new Point(671, 36);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(507, 833);
-            groupBox1.TabIndex = 1;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "Chi tiết hóa đơn";
-            groupBox1.Enter += groupBox1_Enter;
-            // 
-            // button5
-            // 
-            button5.BackColor = Color.Red;
-            button5.Location = new Point(276, 776);
-            button5.Name = "button5";
-            button5.Size = new Size(192, 34);
-            button5.TabIndex = 20;
-            button5.Text = "Hủy";
-            button5.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            button4.BackColor = Color.Cyan;
-            button4.Location = new Point(30, 776);
-            button4.Name = "button4";
-            button4.Size = new Size(199, 34);
-            button4.TabIndex = 19;
-            button4.Text = "Thanh toán";
-            button4.UseVisualStyleBackColor = false;
-            // 
-            // comboBox2
-            // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(362, 675);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(117, 33);
-            comboBox2.TabIndex = 18;
-            comboBox2.SelectedIndexChanged += comboBox2_SelectedIndexChanged;
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(362, 619);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(117, 33);
-            comboBox1.TabIndex = 17;
-            // 
-            // textBox6
-            // 
-            textBox6.Location = new Point(153, 727);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(326, 31);
-            textBox6.TabIndex = 16;
-            // 
-            // textBox5
-            // 
-            textBox5.Location = new Point(153, 675);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(203, 31);
-            textBox5.TabIndex = 15;
-            // 
-            // textBox4
-            // 
-            textBox4.Location = new Point(153, 619);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(203, 31);
-            textBox4.TabIndex = 14;
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 163);
-            label7.Location = new Point(30, 733);
-            label7.Name = "label7";
-            label7.Size = new Size(114, 25);
-            label7.TabIndex = 13;
-            label7.Text = "Thành tiền :";
-            label7.Click += label7_Click;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(30, 675);
-            label6.Name = "label6";
-            label6.Size = new Size(82, 25);
-            label6.TabIndex = 12;
-            label6.Text = "Phụ thu :";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(30, 619);
-            label5.Name = "label5";
-            label5.Size = new Size(91, 25);
-            label5.TabIndex = 11;
-            label5.Text = "Giảm giá :";
-            // 
-            // dataGridView1
-            // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(27, 358);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 62;
-            dataGridView1.Size = new Size(452, 225);
-            dataGridView1.TabIndex = 10;
-            // 
-            // button3
-            // 
-            button3.BackColor = Color.Red;
-            button3.Location = new Point(377, 308);
-            button3.Name = "button3";
-            button3.Size = new Size(112, 34);
-            button3.TabIndex = 9;
-            button3.Text = "Xóa";
-            button3.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            button2.BackColor = Color.Yellow;
-            button2.Location = new Point(244, 308);
-            button2.Name = "button2";
-            button2.Size = new Size(112, 34);
-            button2.TabIndex = 8;
-            button2.Text = "Chỉnh sửa";
-            button2.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            button1.BackColor = Color.Lime;
-            button1.Location = new Point(27, 308);
-            button1.Name = "button1";
-            button1.Size = new Size(199, 34);
-            button1.TabIndex = 7;
-            button1.Text = "Chọn món";
-            button1.UseVisualStyleBackColor = false;
-            // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(153, 233);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(326, 31);
-            textBox3.TabIndex = 6;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(27, 236);
-            label4.Name = "label4";
-            label4.Size = new Size(91, 25);
-            label4.TabIndex = 5;
-            label4.Text = "Nhân viên";
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(153, 169);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(326, 31);
-            textBox2.TabIndex = 4;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(27, 175);
-            label3.Name = "label3";
-            label3.Size = new Size(104, 25);
-            label3.TabIndex = 3;
-            label3.Text = "Khách hàng";
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(153, 107);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(326, 31);
-            textBox1.TabIndex = 2;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(27, 107);
-            label2.Name = "label2";
-            label2.Size = new Size(88, 25);
-            label2.TabIndex = 1;
-            label2.Text = "Ngày vào";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 163);
-            label1.Location = new Point(27, 48);
-            label1.Name = "label1";
-            label1.Size = new Size(84, 25);
-            label1.TabIndex = 0;
-            label1.Text = "Bàn số  :";
-            label1.Click += label1_Click;
             // 
             // flowLayoutPanel1
             // 
@@ -414,9 +86,17 @@
             flowLayoutPanel1.Controls.Add(button16);
             flowLayoutPanel1.Controls.Add(button17);
             flowLayoutPanel1.Controls.Add(button18);
-            flowLayoutPanel1.Location = new Point(135, 36);
+            flowLayoutPanel1.Controls.Add(button1);
+            flowLayoutPanel1.Controls.Add(button2);
+            flowLayoutPanel1.Controls.Add(button3);
+            flowLayoutPanel1.Controls.Add(button4);
+            flowLayoutPanel1.Controls.Add(button5);
+            flowLayoutPanel1.Controls.Add(button27);
+            flowLayoutPanel1.Controls.Add(button28);
+            flowLayoutPanel1.Dock = DockStyle.Fill;
+            flowLayoutPanel1.Location = new Point(3, 27);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(530, 821);
+            flowLayoutPanel1.Size = new Size(1059, 676);
             flowLayoutPanel1.TabIndex = 2;
             // 
             // button6
@@ -455,7 +135,7 @@
             // button9
             // 
             button9.BackgroundImage = (Image)resources.GetObject("button9.BackgroundImage");
-            button9.Location = new Point(3, 179);
+            button9.Location = new Point(531, 3);
             button9.Name = "button9";
             button9.Size = new Size(170, 170);
             button9.TabIndex = 3;
@@ -466,7 +146,7 @@
             // button10
             // 
             button10.BackgroundImage = (Image)resources.GetObject("button10.BackgroundImage");
-            button10.Location = new Point(179, 179);
+            button10.Location = new Point(707, 3);
             button10.Name = "button10";
             button10.Size = new Size(170, 170);
             button10.TabIndex = 4;
@@ -477,7 +157,7 @@
             // button11
             // 
             button11.BackgroundImage = (Image)resources.GetObject("button11.BackgroundImage");
-            button11.Location = new Point(355, 179);
+            button11.Location = new Point(883, 3);
             button11.Name = "button11";
             button11.Size = new Size(170, 170);
             button11.TabIndex = 5;
@@ -488,7 +168,7 @@
             // button12
             // 
             button12.BackgroundImage = (Image)resources.GetObject("button12.BackgroundImage");
-            button12.Location = new Point(3, 355);
+            button12.Location = new Point(3, 179);
             button12.Name = "button12";
             button12.Size = new Size(170, 170);
             button12.TabIndex = 6;
@@ -499,7 +179,7 @@
             // button13
             // 
             button13.BackgroundImage = (Image)resources.GetObject("button13.BackgroundImage");
-            button13.Location = new Point(179, 355);
+            button13.Location = new Point(179, 179);
             button13.Name = "button13";
             button13.Size = new Size(170, 170);
             button13.TabIndex = 7;
@@ -510,7 +190,7 @@
             // button14
             // 
             button14.BackgroundImage = (Image)resources.GetObject("button14.BackgroundImage");
-            button14.Location = new Point(355, 355);
+            button14.Location = new Point(355, 179);
             button14.Name = "button14";
             button14.Size = new Size(170, 170);
             button14.TabIndex = 8;
@@ -521,7 +201,7 @@
             // button15
             // 
             button15.BackgroundImage = (Image)resources.GetObject("button15.BackgroundImage");
-            button15.Location = new Point(3, 531);
+            button15.Location = new Point(531, 179);
             button15.Name = "button15";
             button15.Size = new Size(170, 170);
             button15.TabIndex = 9;
@@ -532,7 +212,7 @@
             // button16
             // 
             button16.BackgroundImage = (Image)resources.GetObject("button16.BackgroundImage");
-            button16.Location = new Point(179, 531);
+            button16.Location = new Point(707, 179);
             button16.Name = "button16";
             button16.Size = new Size(170, 170);
             button16.TabIndex = 10;
@@ -543,7 +223,7 @@
             // button17
             // 
             button17.BackgroundImage = (Image)resources.GetObject("button17.BackgroundImage");
-            button17.Location = new Point(355, 531);
+            button17.Location = new Point(883, 179);
             button17.Name = "button17";
             button17.Size = new Size(170, 170);
             button17.TabIndex = 11;
@@ -554,7 +234,7 @@
             // button18
             // 
             button18.BackgroundImage = (Image)resources.GetObject("button18.BackgroundImage");
-            button18.Location = new Point(3, 707);
+            button18.Location = new Point(3, 355);
             button18.Name = "button18";
             button18.Size = new Size(170, 170);
             button18.TabIndex = 12;
@@ -562,66 +242,260 @@
             button18.TextAlign = ContentAlignment.BottomCenter;
             button18.UseVisualStyleBackColor = true;
             // 
+            // button19
+            // 
+            button19.Location = new Point(12, 268);
+            button19.Name = "button19";
+            button19.Size = new Size(243, 77);
+            button19.TabIndex = 3;
+            button19.Text = "Quản lý bàn";
+            button19.UseVisualStyleBackColor = true;
+            // 
+            // button20
+            // 
+            button20.Location = new Point(12, 770);
+            button20.Name = "button20";
+            button20.Size = new Size(243, 77);
+            button20.TabIndex = 4;
+            button20.Text = "Báo cáo thống kê";
+            button20.UseVisualStyleBackColor = true;
+            // 
+            // button21
+            // 
+            button21.Location = new Point(12, 351);
+            button21.Name = "button21";
+            button21.Size = new Size(243, 77);
+            button21.TabIndex = 5;
+            button21.Text = "Quản lý sản phẩm";
+            button21.UseVisualStyleBackColor = true;
+            // 
+            // button22
+            // 
+            button22.Location = new Point(12, 434);
+            button22.Name = "button22";
+            button22.Size = new Size(243, 77);
+            button22.TabIndex = 6;
+            button22.Text = "Quản lý nhân viên";
+            button22.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(3, 15);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(252, 247);
+            pictureBox1.TabIndex = 22;
+            pictureBox1.TabStop = false;
+            // 
+            // button23
+            // 
+            button23.Location = new Point(12, 517);
+            button23.Name = "button23";
+            button23.Size = new Size(243, 77);
+            button23.TabIndex = 23;
+            button23.Text = "Quản lý ca làm";
+            button23.UseVisualStyleBackColor = true;
+            // 
+            // button24
+            // 
+            button24.Location = new Point(12, 600);
+            button24.Name = "button24";
+            button24.Size = new Size(243, 77);
+            button24.TabIndex = 24;
+            button24.Text = "Quản lý danh mục";
+            button24.UseVisualStyleBackColor = true;
+            // 
+            // groupBox2
+            // 
+            groupBox2.Controls.Add(flowLayoutPanel1);
+            groupBox2.ForeColor = Color.White;
+            groupBox2.Location = new Point(270, 159);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Size = new Size(1065, 706);
+            groupBox2.TabIndex = 25;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "Bàn";
+            groupBox2.Enter += groupBox2_Enter;
+            // 
+            // groupBox3
+            // 
+            groupBox3.Controls.Add(label11);
+            groupBox3.Controls.Add(label10);
+            groupBox3.Controls.Add(label9);
+            groupBox3.Controls.Add(button25);
+            groupBox3.Controls.Add(comboBox3);
+            groupBox3.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point, 163);
+            groupBox3.ForeColor = Color.White;
+            groupBox3.Location = new Point(270, 3);
+            groupBox3.Name = "groupBox3";
+            groupBox3.Size = new Size(546, 150);
+            groupBox3.TabIndex = 26;
+            groupBox3.TabStop = false;
+            groupBox3.Text = "Tầng";
+            // 
+            // comboBox3
+            // 
+            comboBox3.FormattingEnabled = true;
+            comboBox3.Location = new Point(95, 30);
+            comboBox3.Name = "comboBox3";
+            comboBox3.Size = new Size(182, 38);
+            comboBox3.TabIndex = 0;
+            // 
+            // button25
+            // 
+            button25.ForeColor = Color.Black;
+            button25.Location = new Point(302, 32);
+            button25.Name = "button25";
+            button25.Size = new Size(112, 34);
+            button25.TabIndex = 1;
+            button25.Text = "Tất cả";
+            button25.UseVisualStyleBackColor = true;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 163);
+            label9.ForeColor = Color.White;
+            label9.Location = new Point(13, 32);
+            label9.Name = "label9";
+            label9.Size = new Size(78, 32);
+            label9.TabIndex = 2;
+            label9.Text = "TẦNG";
+            label9.Click += label9_Click;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Location = new Point(95, 81);
+            label10.Name = "label10";
+            label10.Size = new Size(144, 30);
+            label10.TabIndex = 3;
+            label10.Text = "Tổng số bàn :";
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Location = new Point(97, 111);
+            label11.Name = "label11";
+            label11.Size = new Size(191, 30);
+            label11.TabIndex = 4;
+            label11.Text = "Số bàn còn trống :";
+            // 
+            // button26
+            // 
+            button26.Location = new Point(12, 683);
+            button26.Name = "button26";
+            button26.Size = new Size(243, 77);
+            button26.TabIndex = 27;
+            button26.Text = "Quản lý đơn hàng";
+            button26.UseVisualStyleBackColor = true;
+            button26.Click += button26_Click;
+            // 
+            // button1
+            // 
+            button1.BackgroundImage = (Image)resources.GetObject("button1.BackgroundImage");
+            button1.Location = new Point(179, 355);
+            button1.Name = "button1";
+            button1.Size = new Size(170, 170);
+            button1.TabIndex = 13;
+            button1.Text = "01";
+            button1.TextAlign = ContentAlignment.BottomCenter;
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.BackgroundImage = (Image)resources.GetObject("button2.BackgroundImage");
+            button2.Location = new Point(355, 355);
+            button2.Name = "button2";
+            button2.Size = new Size(170, 170);
+            button2.TabIndex = 14;
+            button2.Text = "01";
+            button2.TextAlign = ContentAlignment.BottomCenter;
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.BackgroundImage = (Image)resources.GetObject("button3.BackgroundImage");
+            button3.Location = new Point(531, 355);
+            button3.Name = "button3";
+            button3.Size = new Size(170, 170);
+            button3.TabIndex = 15;
+            button3.Text = "01";
+            button3.TextAlign = ContentAlignment.BottomCenter;
+            button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            button4.BackgroundImage = (Image)resources.GetObject("button4.BackgroundImage");
+            button4.Location = new Point(707, 355);
+            button4.Name = "button4";
+            button4.Size = new Size(170, 170);
+            button4.TabIndex = 16;
+            button4.Text = "01";
+            button4.TextAlign = ContentAlignment.BottomCenter;
+            button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            button5.BackgroundImage = (Image)resources.GetObject("button5.BackgroundImage");
+            button5.Location = new Point(883, 355);
+            button5.Name = "button5";
+            button5.Size = new Size(170, 170);
+            button5.TabIndex = 17;
+            button5.Text = "01";
+            button5.TextAlign = ContentAlignment.BottomCenter;
+            button5.UseVisualStyleBackColor = true;
+            // 
+            // button27
+            // 
+            button27.BackgroundImage = (Image)resources.GetObject("button27.BackgroundImage");
+            button27.Location = new Point(3, 531);
+            button27.Name = "button27";
+            button27.Size = new Size(170, 170);
+            button27.TabIndex = 18;
+            button27.Text = "01";
+            button27.TextAlign = ContentAlignment.BottomCenter;
+            button27.UseVisualStyleBackColor = true;
+            // 
+            // button28
+            // 
+            button28.BackgroundImage = (Image)resources.GetObject("button28.BackgroundImage");
+            button28.Location = new Point(179, 531);
+            button28.Name = "button28";
+            button28.Size = new Size(170, 170);
+            button28.TabIndex = 19;
+            button28.Text = "01";
+            button28.TextAlign = ContentAlignment.BottomCenter;
+            button28.UseVisualStyleBackColor = true;
+            // 
             // QuanLy
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1178, 869);
-            Controls.Add(flowLayoutPanel1);
-            Controls.Add(groupBox1);
-            Controls.Add(menuStrip1);
-            MainMenuStrip = menuStrip1;
+            BackColor = Color.Chocolate;
+            ClientSize = new Size(1347, 869);
+            Controls.Add(button26);
+            Controls.Add(groupBox3);
+            Controls.Add(groupBox2);
+            Controls.Add(button24);
+            Controls.Add(button23);
+            Controls.Add(pictureBox1);
+            Controls.Add(button22);
+            Controls.Add(button21);
+            Controls.Add(button20);
+            Controls.Add(button19);
             Name = "QuanLy";
             Text = "QuanLy";
-            menuStrip1.ResumeLayout(false);
-            menuStrip1.PerformLayout();
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            Load += QuanLy_Load;
             flowLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            groupBox2.ResumeLayout(false);
+            groupBox3.ResumeLayout(false);
+            groupBox3.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
-
-        private MenuStrip menuStrip1;
-        private ToolStripMenuItem hToolStripMenuItem;
-        private ToolStripMenuItem tấtCảToolStripMenuItem;
-        private ToolStripMenuItem tầngTrệtToolStripMenuItem;
-        private ToolStripMenuItem tầng1ToolStripMenuItem;
-        private ToolStripMenuItem tầng2ToolStripMenuItem;
-        private ToolStripMenuItem danhMụcToolStripMenuItem;
-        private ToolStripMenuItem khoVàMenuToolStripMenuItem;
-        private ToolStripMenuItem lươngToolStripMenuItem;
-        private ToolStripMenuItem báoCáoThốngKêToolStripMenuItem;
-        private ToolStripMenuItem càPhêToolStripMenuItem;
-        private ToolStripMenuItem nướcHoaQuảToolStripMenuItem;
-        private ToolStripMenuItem sodaToolStripMenuItem;
-        private ToolStripMenuItem đáXayToolStripMenuItem;
-        private ToolStripMenuItem cácLoạiHạtToolStripMenuItem;
-        private GroupBox groupBox1;
-        private Label label1;
-        private Label label2;
-        private DataGridView dataGridView1;
-        private Button button3;
-        private Button button2;
-        private Button button1;
-        private TextBox textBox3;
-        private Label label4;
-        private TextBox textBox2;
-        private Label label3;
-        private TextBox textBox1;
-        private Label label7;
-        private Label label6;
-        private Label label5;
-        private ComboBox comboBox2;
-        private ComboBox comboBox1;
-        private TextBox textBox6;
-        private TextBox textBox5;
-        private TextBox textBox4;
-        private Button button5;
-        private Button button4;
         private FlowLayoutPanel flowLayoutPanel1;
         private Button button6;
         private Button button7;
@@ -636,5 +510,27 @@
         private Button button16;
         private Button button17;
         private Button button18;
+        private Button button19;
+        private Button button20;
+        private Button button21;
+        private Button button22;
+        private PictureBox pictureBox1;
+        private Button button23;
+        private Button button24;
+        private GroupBox groupBox2;
+        private GroupBox groupBox3;
+        private Label label9;
+        private Button button25;
+        private ComboBox comboBox3;
+        private Label label10;
+        private Label label11;
+        private Button button26;
+        private Button button1;
+        private Button button2;
+        private Button button3;
+        private Button button4;
+        private Button button5;
+        private Button button27;
+        private Button button28;
     }
 }

@@ -36,6 +36,12 @@
             dataGridView1 = new DataGridView();
             textBox3 = new TextBox();
             label3 = new Label();
+            Column1 = new DataGridViewTextBoxColumn();
+            Column2 = new DataGridViewTextBoxColumn();
+            Column3 = new DataGridViewTextBoxColumn();
+            Column4 = new DataGridViewTextBoxColumn();
+            Column6 = new DataGridViewTextBoxColumn();
+            Column5 = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -85,6 +91,7 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4, Column6, Column5 });
             dataGridView1.Location = new Point(44, 126);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 62;
@@ -106,6 +113,48 @@
             label3.Size = new Size(98, 25);
             label3.TabIndex = 6;
             label3.Text = "Tổng cộng";
+            // 
+            // Column1
+            // 
+            Column1.HeaderText = "Ngày vào";
+            Column1.MinimumWidth = 8;
+            Column1.Name = "Column1";
+            Column1.Width = 150;
+            // 
+            // Column2
+            // 
+            Column2.HeaderText = "Bàn";
+            Column2.MinimumWidth = 8;
+            Column2.Name = "Column2";
+            Column2.Width = 150;
+            // 
+            // Column3
+            // 
+            Column3.HeaderText = "Tầng";
+            Column3.MinimumWidth = 8;
+            Column3.Name = "Column3";
+            Column3.Width = 150;
+            // 
+            // Column4
+            // 
+            Column4.HeaderText = "Nhân viên";
+            Column4.MinimumWidth = 8;
+            Column4.Name = "Column4";
+            Column4.Width = 150;
+            // 
+            // Column6
+            // 
+            Column6.HeaderText = "Món";
+            Column6.MinimumWidth = 8;
+            Column6.Name = "Column6";
+            Column6.Width = 150;
+            // 
+            // Column5
+            // 
+            Column5.HeaderText = "Giá";
+            Column5.MinimumWidth = 8;
+            Column5.Name = "Column5";
+            Column5.Width = 150;
             // 
             // BaoCao
             // 
@@ -137,5 +186,11 @@
         private DataGridView dataGridView1;
         private TextBox textBox3;
         private Label label3;
+        private DataGridViewTextBoxColumn Column1;
+        private DataGridViewTextBoxColumn Column2;
+        private DataGridViewTextBoxColumn Column3;
+        private DataGridViewTextBoxColumn Column4;
+        private DataGridViewTextBoxColumn Column6;
+        private DataGridViewTextBoxColumn Column5;
     }
 }

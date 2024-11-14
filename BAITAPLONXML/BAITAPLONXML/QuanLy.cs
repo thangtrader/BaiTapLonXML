@@ -41,5 +41,40 @@ namespace BAITAPLONXML
         {
 
         }
+
+        private void lươngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void báoCáoThốngKêToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void QuanLy_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -21,5 +21,15 @@ namespace BAITAPLONXML
         {
 
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void QuanLyban_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
