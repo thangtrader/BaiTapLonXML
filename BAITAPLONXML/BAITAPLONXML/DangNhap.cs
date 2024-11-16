@@ -4,11 +4,13 @@ namespace BAITAPLONXML
 {
     public partial class DangNhap : Form
     {
-        private string connectionString = "Server=localhost;Initial Catalog=Caffe;Integrated Security=True";
+        private DatabaseConnection dbConnection;
 
         public DangNhap()
         {
             InitializeComponent();
+            // Khởi tạo kết nối với database
+            dbConnection = new DatabaseConnection("SORA\\SQLEXPRESS", "Caffe", "sa", "26042004");
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -32,40 +34,55 @@ namespace BAITAPLONXML
                 return;
             }
 
-            string query = "SELECT id, fullname, role_id FROM Staff WHERE email = @Email AND password = @Password AND active = 1";
+            string query = "SELECT id, fullname, role_id FROM Staff WHERE email = @Email AND password = @Password";
 
-            SqlParameter[] parameters = new SqlParameter[]
-            {
-        new SqlParameter("@Email", email),
-        new SqlParameter("@Password", password)
-            };
-
-            XULYDULIEU dataHandler = new XULYDULIEU();
             try
             {
-                DataTable result = dataHandler.ExecuteQueryWithParams(query, parameters);
-                if (result != null && result.Rows.Count > 0)
-                {
-                    string fullName = result.Rows[0]["fullname"].ToString();
-                    int roleId = Convert.ToInt32(result.Rows[0]["role_id"]);
-                    MessageBox.Show($"Đăng nhập thành công!\nXin chào: {fullName}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                // Mở kết nối
+                dbConnection.OpenConnection();
 
-                    // Điều hướng dựa trên vai trò (role_id)
-                    if (roleId == 2)
-                    {
-                        QuanLy adminForm = new QuanLy();
-                        adminForm.Show();
-                    }
-                    this.Hide();
-                }
-                else
+                using (SqlCommand command = new SqlCommand(query, dbConnection.GetConnection()))
                 {
-                    MessageBox.Show("Sai email hoặc mật khẩu!\nKiểm tra lại dữ liệu trong cơ sở dữ liệu.", "Lỗi đăng nhập", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    // Gán tham số cho câu lệnh SQL
+                    command.Parameters.AddWithValue("@Email", email);
+                    command.Parameters.AddWithValue("@Password", password);
+
+                    // Thực thi câu lệnh và đọc kết quả
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.HasRows)
+                        {
+                            while (reader.Read())
+                            {
+                                string fullName = reader["fullname"].ToString();
+                                int roleId = Convert.ToInt32(reader["role_id"]);
+
+                                MessageBox.Show($"Đăng nhập thành công!\nXin chào: {fullName}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                                // Điều hướng dựa trên vai trò (role_id)
+                                if (roleId == 2)
+                                {
+                                    QuanLy adminForm = new QuanLy();
+                                    adminForm.Show();
+                                }
+                                this.Hide();
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("Sai email hoặc mật khẩu!\nKiểm tra lại dữ liệu trong cơ sở dữ liệu.", "Lỗi đăng nhập", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi truy vấn: " + ex.Message);
+                MessageBox.Show($"Lỗi truy vấn: {ex.Message}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                // Đóng kết nối
+                dbConnection.CloseConnection();
             }
         }
     }
