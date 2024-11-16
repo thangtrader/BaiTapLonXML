@@ -43,6 +43,13 @@
             button16 = new Button();
             button17 = new Button();
             button18 = new Button();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
+            button4 = new Button();
+            button5 = new Button();
+            button27 = new Button();
+            button28 = new Button();
             button19 = new Button();
             button20 = new Button();
             button21 = new Button();
@@ -52,23 +59,19 @@
             button24 = new Button();
             groupBox2 = new GroupBox();
             groupBox3 = new GroupBox();
-            comboBox3 = new ComboBox();
-            button25 = new Button();
-            label9 = new Label();
-            label10 = new Label();
             label11 = new Label();
+            label10 = new Label();
+            label9 = new Label();
+            button25 = new Button();
+            comboBox3 = new ComboBox();
             button26 = new Button();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button27 = new Button();
-            button28 = new Button();
+            pictureBox2 = new PictureBox();
+            label1 = new Label();
             flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -242,6 +245,83 @@
             button18.TextAlign = ContentAlignment.BottomCenter;
             button18.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            button1.BackgroundImage = (Image)resources.GetObject("button1.BackgroundImage");
+            button1.Location = new Point(179, 355);
+            button1.Name = "button1";
+            button1.Size = new Size(170, 170);
+            button1.TabIndex = 13;
+            button1.Text = "01";
+            button1.TextAlign = ContentAlignment.BottomCenter;
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.BackgroundImage = (Image)resources.GetObject("button2.BackgroundImage");
+            button2.Location = new Point(355, 355);
+            button2.Name = "button2";
+            button2.Size = new Size(170, 170);
+            button2.TabIndex = 14;
+            button2.Text = "01";
+            button2.TextAlign = ContentAlignment.BottomCenter;
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.BackgroundImage = (Image)resources.GetObject("button3.BackgroundImage");
+            button3.Location = new Point(531, 355);
+            button3.Name = "button3";
+            button3.Size = new Size(170, 170);
+            button3.TabIndex = 15;
+            button3.Text = "01";
+            button3.TextAlign = ContentAlignment.BottomCenter;
+            button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            button4.BackgroundImage = (Image)resources.GetObject("button4.BackgroundImage");
+            button4.Location = new Point(707, 355);
+            button4.Name = "button4";
+            button4.Size = new Size(170, 170);
+            button4.TabIndex = 16;
+            button4.Text = "01";
+            button4.TextAlign = ContentAlignment.BottomCenter;
+            button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            button5.BackgroundImage = (Image)resources.GetObject("button5.BackgroundImage");
+            button5.Location = new Point(883, 355);
+            button5.Name = "button5";
+            button5.Size = new Size(170, 170);
+            button5.TabIndex = 17;
+            button5.Text = "01";
+            button5.TextAlign = ContentAlignment.BottomCenter;
+            button5.UseVisualStyleBackColor = true;
+            // 
+            // button27
+            // 
+            button27.BackgroundImage = (Image)resources.GetObject("button27.BackgroundImage");
+            button27.Location = new Point(3, 531);
+            button27.Name = "button27";
+            button27.Size = new Size(170, 170);
+            button27.TabIndex = 18;
+            button27.Text = "01";
+            button27.TextAlign = ContentAlignment.BottomCenter;
+            button27.UseVisualStyleBackColor = true;
+            // 
+            // button28
+            // 
+            button28.BackgroundImage = (Image)resources.GetObject("button28.BackgroundImage");
+            button28.Location = new Point(179, 531);
+            button28.Name = "button28";
+            button28.Size = new Size(170, 170);
+            button28.TabIndex = 19;
+            button28.Text = "01";
+            button28.TextAlign = ContentAlignment.BottomCenter;
+            button28.UseVisualStyleBackColor = true;
+            // 
             // button19
             // 
             button19.Location = new Point(12, 268);
@@ -333,23 +413,23 @@
             groupBox3.TabStop = false;
             groupBox3.Text = "Tầng";
             // 
-            // comboBox3
+            // label11
             // 
-            comboBox3.FormattingEnabled = true;
-            comboBox3.Location = new Point(95, 30);
-            comboBox3.Name = "comboBox3";
-            comboBox3.Size = new Size(182, 38);
-            comboBox3.TabIndex = 0;
+            label11.AutoSize = true;
+            label11.Location = new Point(97, 111);
+            label11.Name = "label11";
+            label11.Size = new Size(191, 30);
+            label11.TabIndex = 4;
+            label11.Text = "Số bàn còn trống :";
             // 
-            // button25
+            // label10
             // 
-            button25.ForeColor = Color.Black;
-            button25.Location = new Point(302, 32);
-            button25.Name = "button25";
-            button25.Size = new Size(112, 34);
-            button25.TabIndex = 1;
-            button25.Text = "Tất cả";
-            button25.UseVisualStyleBackColor = true;
+            label10.AutoSize = true;
+            label10.Location = new Point(95, 81);
+            label10.Name = "label10";
+            label10.Size = new Size(144, 30);
+            label10.TabIndex = 3;
+            label10.Text = "Tổng số bàn :";
             // 
             // label9
             // 
@@ -363,23 +443,23 @@
             label9.Text = "TẦNG";
             label9.Click += label9_Click;
             // 
-            // label10
+            // button25
             // 
-            label10.AutoSize = true;
-            label10.Location = new Point(95, 81);
-            label10.Name = "label10";
-            label10.Size = new Size(144, 30);
-            label10.TabIndex = 3;
-            label10.Text = "Tổng số bàn :";
+            button25.ForeColor = Color.Black;
+            button25.Location = new Point(302, 32);
+            button25.Name = "button25";
+            button25.Size = new Size(112, 34);
+            button25.TabIndex = 1;
+            button25.Text = "Tất cả";
+            button25.UseVisualStyleBackColor = true;
             // 
-            // label11
+            // comboBox3
             // 
-            label11.AutoSize = true;
-            label11.Location = new Point(97, 111);
-            label11.Name = "label11";
-            label11.Size = new Size(191, 30);
-            label11.TabIndex = 4;
-            label11.Text = "Số bàn còn trống :";
+            comboBox3.FormattingEnabled = true;
+            comboBox3.Location = new Point(95, 30);
+            comboBox3.Name = "comboBox3";
+            comboBox3.Size = new Size(182, 38);
+            comboBox3.TabIndex = 0;
             // 
             // button26
             // 
@@ -391,82 +471,25 @@
             button26.UseVisualStyleBackColor = true;
             button26.Click += button26_Click;
             // 
-            // button1
+            // pictureBox2
             // 
-            button1.BackgroundImage = (Image)resources.GetObject("button1.BackgroundImage");
-            button1.Location = new Point(179, 355);
-            button1.Name = "button1";
-            button1.Size = new Size(170, 170);
-            button1.TabIndex = 13;
-            button1.Text = "01";
-            button1.TextAlign = ContentAlignment.BottomCenter;
-            button1.UseVisualStyleBackColor = true;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(910, 9);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(50, 50);
+            pictureBox2.TabIndex = 28;
+            pictureBox2.TabStop = false;
             // 
-            // button2
+            // label1
             // 
-            button2.BackgroundImage = (Image)resources.GetObject("button2.BackgroundImage");
-            button2.Location = new Point(355, 355);
-            button2.Name = "button2";
-            button2.Size = new Size(170, 170);
-            button2.TabIndex = 14;
-            button2.Text = "01";
-            button2.TextAlign = ContentAlignment.BottomCenter;
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            button3.BackgroundImage = (Image)resources.GetObject("button3.BackgroundImage");
-            button3.Location = new Point(531, 355);
-            button3.Name = "button3";
-            button3.Size = new Size(170, 170);
-            button3.TabIndex = 15;
-            button3.Text = "01";
-            button3.TextAlign = ContentAlignment.BottomCenter;
-            button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            button4.BackgroundImage = (Image)resources.GetObject("button4.BackgroundImage");
-            button4.Location = new Point(707, 355);
-            button4.Name = "button4";
-            button4.Size = new Size(170, 170);
-            button4.TabIndex = 16;
-            button4.Text = "01";
-            button4.TextAlign = ContentAlignment.BottomCenter;
-            button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            button5.BackgroundImage = (Image)resources.GetObject("button5.BackgroundImage");
-            button5.Location = new Point(883, 355);
-            button5.Name = "button5";
-            button5.Size = new Size(170, 170);
-            button5.TabIndex = 17;
-            button5.Text = "01";
-            button5.TextAlign = ContentAlignment.BottomCenter;
-            button5.UseVisualStyleBackColor = true;
-            // 
-            // button27
-            // 
-            button27.BackgroundImage = (Image)resources.GetObject("button27.BackgroundImage");
-            button27.Location = new Point(3, 531);
-            button27.Name = "button27";
-            button27.Size = new Size(170, 170);
-            button27.TabIndex = 18;
-            button27.Text = "01";
-            button27.TextAlign = ContentAlignment.BottomCenter;
-            button27.UseVisualStyleBackColor = true;
-            // 
-            // button28
-            // 
-            button28.BackgroundImage = (Image)resources.GetObject("button28.BackgroundImage");
-            button28.Location = new Point(179, 531);
-            button28.Name = "button28";
-            button28.Size = new Size(170, 170);
-            button28.TabIndex = 19;
-            button28.Text = "01";
-            button28.TextAlign = ContentAlignment.BottomCenter;
-            button28.UseVisualStyleBackColor = true;
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 163);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(976, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(356, 48);
+            label1.TabIndex = 29;
+            label1.Text = "Tên người dăng nhập";
             // 
             // QuanLy
             // 
@@ -474,6 +497,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Chocolate;
             ClientSize = new Size(1347, 869);
+            Controls.Add(label1);
+            Controls.Add(pictureBox2);
             Controls.Add(button26);
             Controls.Add(groupBox3);
             Controls.Add(groupBox2);
@@ -492,7 +517,9 @@
             groupBox2.ResumeLayout(false);
             groupBox3.ResumeLayout(false);
             groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -532,5 +559,7 @@
         private Button button5;
         private Button button27;
         private Button button28;
+        private PictureBox pictureBox2;
+        private Label label1;
     }
 }
