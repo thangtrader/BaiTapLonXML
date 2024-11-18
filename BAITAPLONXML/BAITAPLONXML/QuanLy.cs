@@ -76,5 +76,17 @@ namespace BAITAPLONXML
         {
 
         }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            QuanLyNhanVien qlnv = new QuanLyNhanVien();
+            qlnv.Show();
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            DanhMuc dm = new DanhMuc();
+            dm.Show();
+        }
     }
 }

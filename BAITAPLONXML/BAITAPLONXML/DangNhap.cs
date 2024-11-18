@@ -54,6 +54,7 @@ namespace BAITAPLONXML
                         {
                             while (reader.Read())
                             {
+                                string staffId = reader["id"].ToString();
                                 string fullName = reader["fullname"].ToString();
                                 int roleId = Convert.ToInt32(reader["role_id"]);
 
@@ -62,6 +63,8 @@ namespace BAITAPLONXML
                                 // Điều hướng dựa trên vai trò (role_id)
                                 if (roleId == 2)
                                 {
+                                    /*Profile profileForm = new Profile(staffId);
+                                    profileForm.Show();*/
                                     QuanLy adminForm = new QuanLy();
                                     adminForm.Show();
                                 }

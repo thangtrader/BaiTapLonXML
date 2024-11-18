@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\BAITAPLONXML.csproj": {}
+    "D:\\CNX\\CuoiKi\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\BAITAPLONXML.csproj": {}
   },
   "projects": {
-    "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\BAITAPLONXML.csproj": {
+    "D:\\CNX\\CuoiKi\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\BAITAPLONXML.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\BAITAPLONXML.csproj",
+        "projectUniqueName": "D:\\CNX\\CuoiKi\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\BAITAPLONXML.csproj",
         "projectName": "BAITAPLONXML",
-        "projectPath": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\BAITAPLONXML.csproj",
-        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\obj\\",
+        "projectPath": "D:\\CNX\\CuoiKi\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\BAITAPLONXML.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "D:\\CNX\\CuoiKi\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -49,6 +49,16 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -68,7 +78,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
