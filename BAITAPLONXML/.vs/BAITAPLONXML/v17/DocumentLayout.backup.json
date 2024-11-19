@@ -1,58 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\",
+  "WorkspaceRootPath": "D:\\XML\\BAITAPLONXML\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|d:\\xml\\baitaplonxml\\baitaplonxml\\baitaplonxml\\quanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|solutionrelative:baitaplonxml\\quanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|d:\\xml\\baitaplonxml\\baitaplonxml\\baitaplonxml\\quanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|d:\\xml\\baitaplonxml\\baitaplonxml\\quanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|solutionrelative:baitaplonxml\\quanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\baitaplonxml\\quanlyban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|solutionrelative:baitaplonxml\\quanlyban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|d:\\xml\\baitaplonxml\\baitaplonxml\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|solutionrelative:baitaplonxml\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\baitaplonxml\\baocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|solutionrelative:baitaplonxml\\baocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|D:\\XML\\BAITAPLONXML\\baitaplonxml\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|solutionrelative:baitaplonxml\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\baitaplonxml\\quanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|solutionrelative:baitaplonxml\\quanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\baitaplonxml\\quanlycalam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|solutionrelative:baitaplonxml\\quanlycalam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|d:\\xml\\baitaplonxml\\baitaplonxml\\baitaplonxml\\quanly.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|solutionrelative:baitaplonxml\\quanly.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\baitaplonxml\\chonmon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|solutionrelative:baitaplonxml\\chonmon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\baitaplonxml\\danhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|solutionrelative:baitaplonxml\\danhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\baitaplonxml\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|solutionrelative:baitaplonxml\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|d:\\xml\\baitaplonxml\\baitaplonxml\\baitaplonxml\\baitaplonxml.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|solutionrelative:baitaplonxml\\baitaplonxml.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\baitaplonxml\\chinhsuamon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|solutionrelative:baitaplonxml\\chinhsuamon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|d:\\xml\\baitaplonxml\\baitaplonxml\\baitaplonxml\\chonmon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|solutionrelative:baitaplonxml\\chonmon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|D:\\XML\\BAITAPLONXML\\baitaplonxml\\quanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E51B46B8-7E66-4C35-AD05-FD42138A9B78}|BAITAPLONXML\\BAITAPLONXML.csproj|solutionrelative:baitaplonxml\\quanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -77,162 +41,58 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "QuanLy.cs",
-              "DocumentMoniker": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\QuanLy.cs",
-              "RelativeDocumentMoniker": "BAITAPLONXML\\QuanLy.cs",
-              "ToolTip": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\QuanLy.cs",
-              "RelativeToolTip": "BAITAPLONXML\\QuanLy.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAIAzwD0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T13:29:35.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "QuanLy.cs [Design]",
-              "DocumentMoniker": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\QuanLy.cs",
-              "RelativeDocumentMoniker": "BAITAPLONXML\\QuanLy.cs",
-              "ToolTip": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\QuanLy.cs [Design]",
-              "RelativeToolTip": "BAITAPLONXML\\QuanLy.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T04:39:52.061Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "QuanLyban.cs [Design]",
-              "DocumentMoniker": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\QuanLyban.cs",
-              "RelativeDocumentMoniker": "BAITAPLONXML\\QuanLyban.cs",
-              "ToolTip": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\QuanLyban.cs [Design]",
-              "RelativeToolTip": "BAITAPLONXML\\QuanLyban.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T17:59:35.001Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "QuanLyNhanVien.cs [Design]",
-              "DocumentMoniker": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\QuanLyNhanVien.cs",
-              "RelativeDocumentMoniker": "BAITAPLONXML\\QuanLyNhanVien.cs",
-              "ToolTip": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\QuanLyNhanVien.cs [Design]",
-              "RelativeToolTip": "BAITAPLONXML\\QuanLyNhanVien.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T04:39:44.263Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BaoCao.cs [Design]",
-              "DocumentMoniker": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\BaoCao.cs",
-              "RelativeDocumentMoniker": "BAITAPLONXML\\BaoCao.cs",
-              "ToolTip": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\BaoCao.cs [Design]",
-              "RelativeToolTip": "BAITAPLONXML\\BaoCao.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T16:03:26.411Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "QuanLyCaLam.cs [Design]",
-              "DocumentMoniker": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\QuanLyCaLam.cs",
-              "RelativeDocumentMoniker": "BAITAPLONXML\\QuanLyCaLam.cs",
-              "ToolTip": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\QuanLyCaLam.cs [Design]",
-              "RelativeToolTip": "BAITAPLONXML\\QuanLyCaLam.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T04:48:16.403Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BAITAPLONXML.csproj",
-              "DocumentMoniker": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\BAITAPLONXML.csproj",
-              "RelativeDocumentMoniker": "BAITAPLONXML\\BAITAPLONXML.csproj",
-              "ToolTip": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\BAITAPLONXML.csproj",
-              "RelativeToolTip": "BAITAPLONXML\\BAITAPLONXML.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-13T15:59:15.78Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ChonMon.cs",
-              "DocumentMoniker": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\ChonMon.cs",
-              "RelativeDocumentMoniker": "BAITAPLONXML\\ChonMon.cs",
-              "ToolTip": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\ChonMon.cs",
-              "RelativeToolTip": "BAITAPLONXML\\ChonMon.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAhwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T17:38:39.226Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "QuanLy.Designer.cs",
-              "DocumentMoniker": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\QuanLy.Designer.cs",
-              "RelativeDocumentMoniker": "BAITAPLONXML\\QuanLy.Designer.cs",
-              "ToolTip": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\QuanLy.Designer.cs",
-              "RelativeToolTip": "BAITAPLONXML\\QuanLy.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T15:50:58.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ChonMon.cs [Design]",
-              "DocumentMoniker": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\ChonMon.cs",
-              "RelativeDocumentMoniker": "BAITAPLONXML\\ChonMon.cs",
-              "ToolTip": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\ChonMon.cs [Design]",
-              "RelativeToolTip": "BAITAPLONXML\\ChonMon.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T17:38:11.548Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DanhMuc.cs [Design]",
-              "DocumentMoniker": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\DanhMuc.cs",
-              "RelativeDocumentMoniker": "BAITAPLONXML\\DanhMuc.cs",
-              "ToolTip": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\DanhMuc.cs [Design]",
-              "RelativeToolTip": "BAITAPLONXML\\DanhMuc.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T15:51:11.603Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DangNhap.cs [Design]",
-              "DocumentMoniker": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\DangNhap.cs",
-              "RelativeDocumentMoniker": "BAITAPLONXML\\DangNhap.cs",
-              "ToolTip": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\DangNhap.cs [Design]",
-              "RelativeToolTip": "BAITAPLONXML\\DangNhap.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T04:55:21.987Z"
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ChinhSuaMon.cs [Design]",
-              "DocumentMoniker": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\ChinhSuaMon.cs",
-              "RelativeDocumentMoniker": "BAITAPLONXML\\ChinhSuaMon.cs",
-              "ToolTip": "D:\\XML\\BaiTapLonXML\\BAITAPLONXML\\BAITAPLONXML\\ChinhSuaMon.cs [Design]",
-              "RelativeToolTip": "BAITAPLONXML\\ChinhSuaMon.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\XML\\BAITAPLONXML\\BAITAPLONXML\\Order.cs",
+              "RelativeDocumentMoniker": "BAITAPLONXML\\Order.cs",
+              "ToolTip": "D:\\XML\\BAITAPLONXML\\BAITAPLONXML\\Order.cs",
+              "RelativeToolTip": "BAITAPLONXML\\Order.cs",
+              "ViewState": "AgIAAHUBAAAAAAAAAAAuwJABAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T17:44:39.786Z"
+              "WhenOpened": "2024-11-19T07:08:04.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuanLy.cs",
+              "DocumentMoniker": "D:\\XML\\BAITAPLONXML\\BAITAPLONXML\\QuanLy.cs",
+              "RelativeDocumentMoniker": "BAITAPLONXML\\QuanLy.cs",
+              "ToolTip": "D:\\XML\\BAITAPLONXML\\BAITAPLONXML\\QuanLy.cs",
+              "RelativeToolTip": "BAITAPLONXML\\QuanLy.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAIAxwMwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T09:46:39.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuanLy.cs [Design]",
+              "DocumentMoniker": "D:\\XML\\BAITAPLONXML\\BAITAPLONXML\\QuanLy.cs",
+              "RelativeDocumentMoniker": "BAITAPLONXML\\QuanLy.cs",
+              "ToolTip": "D:\\XML\\BAITAPLONXML\\BAITAPLONXML\\QuanLy.cs [Design]",
+              "RelativeToolTip": "BAITAPLONXML\\QuanLy.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T18:10:54.101Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Order.cs [Design]",
+              "DocumentMoniker": "D:\\XML\\BAITAPLONXML\\BAITAPLONXML\\Order.cs",
+              "RelativeDocumentMoniker": "BAITAPLONXML\\Order.cs",
+              "ToolTip": "D:\\XML\\BAITAPLONXML\\BAITAPLONXML\\Order.cs [Design]",
+              "RelativeToolTip": "BAITAPLONXML\\Order.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T09:46:11.515Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
