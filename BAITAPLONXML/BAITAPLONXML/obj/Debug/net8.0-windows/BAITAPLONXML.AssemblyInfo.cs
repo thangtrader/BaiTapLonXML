@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BAITAPLONXML")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+490942fe0e9c38b3d9039720e8e3db8b157754b1")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4713c5571e02a27dcf4af55800efd3505c1f0497")]
+>>>>>>> main
 [assembly: System.Reflection.AssemblyProductAttribute("BAITAPLONXML")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BAITAPLONXML")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

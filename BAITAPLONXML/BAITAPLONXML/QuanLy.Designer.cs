@@ -65,12 +65,18 @@
             button25 = new Button();
             comboBox3 = new ComboBox();
             button26 = new Button();
+<<<<<<< HEAD
             label1 = new Label();
             label2 = new Label();
+=======
+            pictureBox2 = new PictureBox();
+            label1 = new Label();
+>>>>>>> main
             flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -265,6 +271,7 @@
             button18.UseVisualStyleBackColor = true;
             // 
             // button1
+<<<<<<< HEAD
             // 
             button1.BackgroundImage = (Image)resources.GetObject("button1.BackgroundImage");
             button1.Location = new Point(142, 282);
@@ -275,9 +282,245 @@
             button1.Text = "01";
             button1.TextAlign = ContentAlignment.BottomCenter;
             button1.UseVisualStyleBackColor = true;
+=======
+            // 
+            button1.BackgroundImage = (Image)resources.GetObject("button1.BackgroundImage");
+            button1.Location = new Point(179, 355);
+            button1.Name = "button1";
+            button1.Size = new Size(170, 170);
+            button1.TabIndex = 13;
+            button1.Text = "01";
+            button1.TextAlign = ContentAlignment.BottomCenter;
+            button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
+            button2.BackgroundImage = (Image)resources.GetObject("button2.BackgroundImage");
+            button2.Location = new Point(355, 355);
+            button2.Name = "button2";
+            button2.Size = new Size(170, 170);
+            button2.TabIndex = 14;
+            button2.Text = "01";
+            button2.TextAlign = ContentAlignment.BottomCenter;
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.BackgroundImage = (Image)resources.GetObject("button3.BackgroundImage");
+            button3.Location = new Point(531, 355);
+            button3.Name = "button3";
+            button3.Size = new Size(170, 170);
+            button3.TabIndex = 15;
+            button3.Text = "01";
+            button3.TextAlign = ContentAlignment.BottomCenter;
+            button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            button4.BackgroundImage = (Image)resources.GetObject("button4.BackgroundImage");
+            button4.Location = new Point(707, 355);
+            button4.Name = "button4";
+            button4.Size = new Size(170, 170);
+            button4.TabIndex = 16;
+            button4.Text = "01";
+            button4.TextAlign = ContentAlignment.BottomCenter;
+            button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            button5.BackgroundImage = (Image)resources.GetObject("button5.BackgroundImage");
+            button5.Location = new Point(883, 355);
+            button5.Name = "button5";
+            button5.Size = new Size(170, 170);
+            button5.TabIndex = 17;
+            button5.Text = "01";
+            button5.TextAlign = ContentAlignment.BottomCenter;
+            button5.UseVisualStyleBackColor = true;
+            // 
+            // button27
+            // 
+            button27.BackgroundImage = (Image)resources.GetObject("button27.BackgroundImage");
+            button27.Location = new Point(3, 531);
+            button27.Name = "button27";
+            button27.Size = new Size(170, 170);
+            button27.TabIndex = 18;
+            button27.Text = "01";
+            button27.TextAlign = ContentAlignment.BottomCenter;
+            button27.UseVisualStyleBackColor = true;
+            // 
+            // button28
+            // 
+            button28.BackgroundImage = (Image)resources.GetObject("button28.BackgroundImage");
+            button28.Location = new Point(179, 531);
+            button28.Name = "button28";
+            button28.Size = new Size(170, 170);
+            button28.TabIndex = 19;
+            button28.Text = "01";
+            button28.TextAlign = ContentAlignment.BottomCenter;
+            button28.UseVisualStyleBackColor = true;
+            // 
+            // button19
+            // 
+            button19.Location = new Point(12, 268);
+            button19.Name = "button19";
+            button19.Size = new Size(243, 77);
+            button19.TabIndex = 3;
+            button19.Text = "Quản lý bàn";
+            button19.UseVisualStyleBackColor = true;
+            // 
+            // button20
+            // 
+            button20.Location = new Point(12, 770);
+            button20.Name = "button20";
+            button20.Size = new Size(243, 77);
+            button20.TabIndex = 4;
+            button20.Text = "Báo cáo thống kê";
+            button20.UseVisualStyleBackColor = true;
+            // 
+            // button21
+            // 
+            button21.Location = new Point(12, 351);
+            button21.Name = "button21";
+            button21.Size = new Size(243, 77);
+            button21.TabIndex = 5;
+            button21.Text = "Quản lý sản phẩm";
+            button21.UseVisualStyleBackColor = true;
+            // 
+            // button22
+            // 
+            button22.Location = new Point(12, 434);
+            button22.Name = "button22";
+            button22.Size = new Size(243, 77);
+            button22.TabIndex = 6;
+            button22.Text = "Quản lý nhân viên";
+            button22.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(3, 15);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(252, 247);
+            pictureBox1.TabIndex = 22;
+            pictureBox1.TabStop = false;
+            // 
+            // button23
+            // 
+            button23.Location = new Point(12, 517);
+            button23.Name = "button23";
+            button23.Size = new Size(243, 77);
+            button23.TabIndex = 23;
+            button23.Text = "Quản lý ca làm";
+            button23.UseVisualStyleBackColor = true;
+            // 
+            // button24
+            // 
+            button24.Location = new Point(12, 600);
+            button24.Name = "button24";
+            button24.Size = new Size(243, 77);
+            button24.TabIndex = 24;
+            button24.Text = "Quản lý danh mục";
+            button24.UseVisualStyleBackColor = true;
+            // 
+            // groupBox2
+            // 
+            groupBox2.Controls.Add(flowLayoutPanel1);
+            groupBox2.ForeColor = Color.White;
+            groupBox2.Location = new Point(270, 159);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Size = new Size(1065, 706);
+            groupBox2.TabIndex = 25;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "Bàn";
+            groupBox2.Enter += groupBox2_Enter;
+            // 
+            // groupBox3
+            // 
+            groupBox3.Controls.Add(label11);
+            groupBox3.Controls.Add(label10);
+            groupBox3.Controls.Add(label9);
+            groupBox3.Controls.Add(button25);
+            groupBox3.Controls.Add(comboBox3);
+            groupBox3.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point, 163);
+            groupBox3.ForeColor = Color.White;
+            groupBox3.Location = new Point(270, 3);
+            groupBox3.Name = "groupBox3";
+            groupBox3.Size = new Size(546, 150);
+            groupBox3.TabIndex = 26;
+            groupBox3.TabStop = false;
+            groupBox3.Text = "Tầng";
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Location = new Point(97, 111);
+            label11.Name = "label11";
+            label11.Size = new Size(191, 30);
+            label11.TabIndex = 4;
+            label11.Text = "Số bàn còn trống :";
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Location = new Point(95, 81);
+            label10.Name = "label10";
+            label10.Size = new Size(144, 30);
+            label10.TabIndex = 3;
+            label10.Text = "Tổng số bàn :";
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 163);
+            label9.ForeColor = Color.White;
+            label9.Location = new Point(13, 32);
+            label9.Name = "label9";
+            label9.Size = new Size(78, 32);
+            label9.TabIndex = 2;
+            label9.Text = "TẦNG";
+            label9.Click += label9_Click;
+            // 
+            // button25
+            // 
+            button25.ForeColor = Color.Black;
+            button25.Location = new Point(302, 32);
+            button25.Name = "button25";
+            button25.Size = new Size(112, 34);
+            button25.TabIndex = 1;
+            button25.Text = "Tất cả";
+            button25.UseVisualStyleBackColor = true;
+            // 
+            // comboBox3
+            // 
+            comboBox3.FormattingEnabled = true;
+            comboBox3.Location = new Point(95, 30);
+            comboBox3.Name = "comboBox3";
+            comboBox3.Size = new Size(182, 38);
+            comboBox3.TabIndex = 0;
+            // 
+            // button26
+            // 
+            button26.Location = new Point(12, 683);
+            button26.Name = "button26";
+            button26.Size = new Size(243, 77);
+            button26.TabIndex = 27;
+            button26.Text = "Quản lý đơn hàng";
+            button26.UseVisualStyleBackColor = true;
+            button26.Click += button26_Click;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(910, 9);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(50, 50);
+            pictureBox2.TabIndex = 28;
+            pictureBox2.TabStop = false;
+>>>>>>> main
+            // 
+            // label1
+            // 
+<<<<<<< HEAD
             button2.BackgroundImage = (Image)resources.GetObject("button2.BackgroundImage");
             button2.Location = new Point(282, 282);
             button2.Margin = new Padding(2);
@@ -347,6 +590,16 @@
             button28.Text = "01";
             button28.TextAlign = ContentAlignment.BottomCenter;
             button28.UseVisualStyleBackColor = true;
+=======
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 163);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(976, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(356, 48);
+            label1.TabIndex = 29;
+            label1.Text = "Tên người dăng nhập";
+>>>>>>> main
             // 
             // button19
             // 
@@ -537,7 +790,13 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Chocolate;
+<<<<<<< HEAD
             ClientSize = new Size(1078, 695);
+=======
+            ClientSize = new Size(1347, 869);
+            Controls.Add(label1);
+            Controls.Add(pictureBox2);
+>>>>>>> main
             Controls.Add(button26);
             Controls.Add(groupBox3);
             Controls.Add(groupBox2);
@@ -557,7 +816,9 @@
             groupBox2.ResumeLayout(false);
             groupBox3.ResumeLayout(false);
             groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -597,7 +858,12 @@
         private Button button5;
         private Button button27;
         private Button button28;
+<<<<<<< HEAD
         private Label label1;
         private Label label2;
+=======
+        private PictureBox pictureBox2;
+        private Label label1;
+>>>>>>> main
     }
 }

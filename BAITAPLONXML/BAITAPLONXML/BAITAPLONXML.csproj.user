@@ -10,6 +10,9 @@
     <Compile Update="Order.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="QuanLyDon.cs">
       <SubType>Form</SubType>
     </Compile>
