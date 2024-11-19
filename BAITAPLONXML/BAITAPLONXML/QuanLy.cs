@@ -88,5 +88,11 @@ namespace BAITAPLONXML
             DanhMuc dm = new DanhMuc();
             dm.Show();
         }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            QuanLyCaLam qlcl = new QuanLyCaLam();
+            qlcl.Show();
+        }
     }
 }
