@@ -31,12 +31,12 @@
             label2 = new Label();
             textBox2 = new TextBox();
             dataGridView1 = new DataGridView();
-            button1 = new Button();
-            button2 = new Button();
             Column1 = new DataGridViewTextBoxColumn();
             Column3 = new DataGridViewTextBoxColumn();
             Column4 = new DataGridViewTextBoxColumn();
             Column2 = new DataGridViewTextBoxColumn();
+            button1 = new Button();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -44,48 +44,31 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 163);
-            label2.Location = new Point(81, 69);
+            label2.Location = new Point(65, 55);
+            label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(122, 32);
+            label2.Size = new Size(101, 28);
             label2.TabIndex = 1;
             label2.Text = "Ngày vào ";
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(285, 72);
+            textBox2.Location = new Point(228, 58);
+            textBox2.Margin = new Padding(2, 2, 2, 2);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(265, 31);
+            textBox2.Size = new Size(213, 27);
             textBox2.TabIndex = 3;
             // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column3, Column4, Column2 });
-            dataGridView1.Location = new Point(58, 160);
+            dataGridView1.Location = new Point(46, 128);
+            dataGridView1.Margin = new Padding(2, 2, 2, 2);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 62;
-            dataGridView1.Size = new Size(1006, 381);
+            dataGridView1.Size = new Size(805, 305);
             dataGridView1.TabIndex = 4;
-            // 
-            // button1
-            // 
-            button1.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point, 163);
-            button1.Location = new Point(620, 36);
-            button1.Name = "button1";
-            button1.Size = new Size(145, 51);
-            button1.TabIndex = 5;
-            button1.Text = "Tìm kiếm";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point, 163);
-            button2.Location = new Point(620, 96);
-            button2.Name = "button2";
-            button2.Size = new Size(145, 51);
-            button2.TabIndex = 6;
-            button2.Text = "Thoát";
-            button2.UseVisualStyleBackColor = true;
             // 
             // Column1
             // 
@@ -115,16 +98,39 @@
             Column2.Name = "Column2";
             Column2.Width = 225;
             // 
+            // button1
+            // 
+            button1.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point, 163);
+            button1.Location = new Point(496, 29);
+            button1.Margin = new Padding(2, 2, 2, 2);
+            button1.Name = "button1";
+            button1.Size = new Size(116, 41);
+            button1.TabIndex = 5;
+            button1.Text = "Tìm kiếm";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point, 163);
+            button2.Location = new Point(496, 77);
+            button2.Margin = new Padding(2, 2, 2, 2);
+            button2.Name = "button2";
+            button2.Size = new Size(116, 41);
+            button2.TabIndex = 6;
+            button2.Text = "Thoát";
+            button2.UseVisualStyleBackColor = true;
+            // 
             // QuanLyDon
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1133, 589);
+            ClientSize = new Size(906, 471);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(dataGridView1);
             Controls.Add(textBox2);
             Controls.Add(label2);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "QuanLyDon";
             Text = "ChiTietDonHang";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();

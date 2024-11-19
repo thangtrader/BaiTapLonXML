@@ -25,8 +25,7 @@ CREATE TABLE Staff (
     cccd CHAR(20),
     password CHAR(100),
     active Bit,
-    shift_id INT FOREIGN KEY REFERENCES Shift(id),
-	image NVARCHAR(256)
+    shift_id INT FOREIGN KEY REFERENCES Shift(id)
 );
 
 CREATE TABLE Category (
@@ -38,10 +37,8 @@ CREATE TABLE Product (
     id INT PRIMARY KEY IDENTITY(1,1),
     product_name NVARCHAR(100),
     category_id INT FOREIGN KEY REFERENCES Category(id),
-    image NVARCHAR(256),
     price FLOAT,
-    description NVARCHAR(MAX),
-    status Bit
+    description NVARCHAR(MAX)
 );
 
 CREATE TABLE Floors (
@@ -74,7 +71,8 @@ CREATE TABLE Order_Detail (
     number_of_product INT,
     total_money FLOAT,
     order_date DATETIME,
-    table_id INT FOREIGN KEY REFERENCES Tables(id)
+    table_id INT FOREIGN KEY REFERENCES Tables(id),
+	paid bit default 0 
 );
 
 
@@ -84,48 +82,48 @@ VALUES ('Staff'),
 
 INSERT INTO Shift (shift_name, start_time, end_time)
 VALUES 
-    ('Ca 1', '07:00', '12:00'),
-    ('Ca 2', '12:00', '17:00'),
-    ('Ca 3', '17:00', '22:00');
+    (N'Ca 1', '07:00', '12:00'),
+    (N'Ca 2', '12:00', '17:00'),
+    (N'Ca 3', '17:00', '22:00');
 
 
-INSERT INTO Staff (fullname, address, phone_number, email, role_id, date_of_birth, cccd, password, active, shift_id, image)
-VALUES ('Nguyễn Đức Thắng', '12 Phan Kế Bính', '0325043590', 'thangkccute@gmail.com', 2, '2004-08-30', '0000000', '123', 1, NULL, NULL);
+INSERT INTO Staff (fullname, address, phone_number, email, role_id, date_of_birth, cccd, password, active, shift_id)
+VALUES (N'Nguyễn Đức Thắng', N'12 Phan Kế Bính', '0325043590', 'thangkccute@gmail.com', 2, '2004-08-30', '0000000', '123', 1, NULL);
 
 
 INSERT INTO Category (category_name)
-VALUES ('Nước ép'),
-	   ('Nước ngọt'),
-       ('Cà phê'),
-       ('Đá xay');
+VALUES (N'Nước ép'),
+	   (N'Nước ngọt'),
+       (N'Cà phê'),
+       (N'Đá xay');
 
-INSERT INTO Product (product_name, category_id, image, price, description, status)
+INSERT INTO Product (product_name, category_id, price, description)
 VALUES 
-    ('Nước ép cam', 1, NULL, 30000, 'Nước ép cam tươi mát', 1),
-    ('Coca Cola', 2, NULL, 20000, 'Nước ngọt có ga Coca Cola', 1),
-    ('Cà phê đen', 3, NULL, 25000, 'Cà phê đen nguyên chất', 1),
-    ('Đá xay chocolate', 4, NULL, 40000, 'Đá xay hương vị chocolate', 1);
+    (N'Nước ép cam', 1, 30000, N'Nước ép cam tươi mát'),
+    (N'Coca Cola', 2, 20000, N'Nước ngọt có ga Coca Cola'),
+    (N'Cà phê đen', 3, 25000, N'Cà phê đen nguyên chất'),
+    (N'Đá xay chocolate', 4, 40000, N'Đá xay hương vị chocolate');
 
 
 INSERT INTO Floors (floor_name, description)
-VALUES ('Tầng 1', 'Trong nhà'),
-       ('Tầng 2', 'Có bạt kéo thoáng mát');
+VALUES (N'Tầng 1', N'Trong nhà'),
+       (N'Tầng 2', N'Có bạt kéo thoáng mát');
 
 INSERT INTO Tables (table_name, floor_id, number_of_seat, description, status)
 VALUES 
-    ('Bàn 1', 1, 4, 'Bàn số 1 tại Tầng 1', 1),
-    ('Bàn 2', 1, 4, 'Bàn số 2 tại Tầng 1', 1),
-    ('Bàn 3', 1, 4, 'Bàn số 3 tại Tầng 1', 1),
-    ('Bàn 4', 1, 4, 'Bàn số 4 tại Tầng 1', 1),
-    ('Bàn 5', 1, 4, 'Bàn số 5 tại Tầng 1', 1),
-    ('Bàn 6', 1, 4, 'Bàn số 6 tại Tầng 1', 1),
-    ('Bàn 7', 1, 4, 'Bàn số 7 tại Tầng 1', 1),
-    ('Bàn 8', 2, 4, 'Bàn số 1 tại Tầng 2', 1),
-    ('Bàn 9', 2, 4, 'Bàn số 2 tại Tầng 2', 1),
-    ('Bàn 10', 2, 4, 'Bàn số 3 tại Tầng 2', 1),
-    ('Bàn 11', 2, 4, 'Bàn số 4 tại Tầng 2', 1),
-    ('Bàn 12', 2, 4, 'Bàn số 5 tại Tầng 2', 1),
-    ('Bàn 13', 2, 4, 'Bàn số 6 tại Tầng 2', 1);
+    (N'Bàn 1', 1, 4, N'Bàn số 1 tại Tầng 1', 1),
+    (N'Bàn 2', 1, 4, N'Bàn số 2 tại Tầng 1', 1),
+    (N'Bàn 3', 1, 4, N'Bàn số 3 tại Tầng 1', 1),
+    (N'Bàn 4', 1, 4, N'Bàn số 4 tại Tầng 1', 1),
+    (N'Bàn 5', 1, 4, N'Bàn số 5 tại Tầng 1', 1),
+    (N'Bàn 6', 1, 4, N'Bàn số 6 tại Tầng 1', 1),
+    (N'Bàn 7', 1, 4, N'Bàn số 7 tại Tầng 1', 1),
+    (N'Bàn 8', 2, 4, N'Bàn số 1 tại Tầng 2', 1),
+    (N'Bàn 9', 2, 4, N'Bàn số 2 tại Tầng 2', 1),
+    (N'Bàn 10', 2, 4, N'Bàn số 3 tại Tầng 2', 1),
+    (N'Bàn 11', 2, 4, N'Bàn số 4 tại Tầng 2', 1),
+    (N'Bàn 12', 2, 4, N'Bàn số 5 tại Tầng 2', 1),
+    (N'Bàn 13', 2, 4, N'Bàn số 6 tại Tầng 2', 1);
 
 INSERT INTO Orders (staff_id, note, order_date)
 VALUES 
@@ -133,5 +131,5 @@ VALUES
     (1, 'Ghi chú đơn hàng 2', '2024-11-11'),
     (1, 'Ghi chú đơn hàng 3', '2024-11-12');
 
-INSERT INTO Order_Detail (order_id, product_id, price, number_of_product, total_money, order_date, table_id)
-VALUES (1, 1, 30000, 2, 30000*2,'2024-11-10 12:30:00', 1);
+INSERT INTO Order_Detail (order_id, product_id, price, number_of_product, total_money, order_date, table_id, paid)
+VALUES (1, 1, 30000, 2, 30000*2,'2024-11-10 12:30:00', 1, 0);
